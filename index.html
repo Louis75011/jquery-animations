@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 5 des meilleures actrices</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./style.css"> -->
+    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="./script.js"></script>
+    <script defer type="module" src="films.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Top 5 des meilleures actrices</h1>
+    </header>
+
+    <section id="main-menu">
+        <ul>
+            <li>
+                <div id="part1" class="images">
+                    <div class="bw"></div>
+                    <div class="color"></div>
+                </div>
+                <div class="description">
+                    <h2>Scarlett<br> Johansson</h2>
+                    <h3>Ses meilleurs film</h3>
+                    <p>Lucy</p>
+                    <p>The Island</p>
+                    <p>Lost In Translation</p>
+                </div>
+            </li>
+
+            <li>
+                <div id="part2" class="images">
+                    <div class="bw"></div>
+                    <div class="color"></div>
+                </div>
+                <div class="description">
+                    <h2>Natalie<br> Portman</h2>
+                    <h3>Ses meilleurs film</h3>
+                    <p>Black Swan</p>
+                    <p>Star Wars</p>
+                    <p>Leon</p>
+                </div>
+            </li>
+
+            <li>
+                <div id="part3" class="images">
+                    <div class="bw"></div>
+                    <div class="color"></div>
+                </div>
+                <div class="description">
+                    <h2>Jessica<br> Alba</h2>
+                    <h3>Ses meilleurs film</h3>
+                    <p>Awayke</p>
+                    <p>Sin City</p>
+                    <p>Fantastic Four</p>
+                </div>
+            </li>
+
+            <li>
+                <div id="part4" class="images">
+                    <div class="bw"></div>
+                    <div class="color"></div>
+                </div>
+                <div class="description">
+                    <h2>Rachelle<br> MC Adams</h2>
+                    <h3>Ses meilleurs film</h3>
+                    <p>The notebook</p>
+                    <p>The vow</p>
+                    <p>The time traveler's wife</p>
+                </div>
+            </li>
+
+            <li>
+                <div id="part5" class="images">
+                    <div class="bw"></div>
+                    <div class="color"></div>
+                </div>
+                <div class="description">
+                    <h2>Marion<br> Cotillard</h2>
+                    <h3>Ses meilleurs film</h3>
+                    <p>Jeux d'enfants</p>
+                    <p>Les petits mouchoirs</p>
+                    <p>Inception</p>
+                </div>
+            </li>
+            <!-- ${films.map((film, index) => `
+                    <li>
+                      <div id="part${index + 1}" class="images">
+                        <div class="bw"></div>
+                        <div class="color"></div>
+                      </div>
+                      <div class="description">
+                        <h2>${film.artiste}</h2>
+                        <h3>Ses meilleurs films</h3>
+                        ${film.meilleursFilms.map(meilleurFilm => `<p>${meilleurFilm}</p>`).join('')}
+                      </div>
+                    </li>
+                  `).join('')} -->
+        </ul>
+    </section>
+
+    <section id="buttons-menu">
+        <ul>
+            <li class="button">Scarlett<br>Johansson</li>
+            <li class="button">Natalie<br>Portman</li>
+            <li class="button">Jessica<br>Alba</li>
+            <li class="button">Rachel<br>McAdams</li>
+            <li class="button">Marion<br>Cotillard</li>
+        </ul>
+    </section>
+</body>
+
+</html>

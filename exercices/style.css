@@ -1,0 +1,69 @@
+#main,
+#div1,
+#div2,
+#t1,
+#t2,
+#t3 {
+    padding: 5px;
+    border: 5px solid red;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#start-main {
+    margin-bottom: 5px;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+#p5 {
+    background-color: crimson;
+}
+
+button {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: aquamarine;
+}
+
+.division,
+.divisioning,
+.division-last {
+    width: 120px;
+    height: 90px;
+    background-color: darkblue;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.divisioning {
+    left: 250px;
+    background-color: darkred;
+}
+
+.division-last {
+    left: 450px;
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: column;
+}
+
+#paragraph {
+    text-align: center;
+    color: white;
+}
+
+.purple {
+    color: rgb(224, 0, 224) !important;
+}
+
+.italic {
+    font-style: italic;
+}

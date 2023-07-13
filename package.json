@@ -1,0 +1,17 @@
+{
+  "name": "jquery-project-and-exercices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write \"**/*.js\"",
+    "build-sass": "sass style.scss style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "sass": "^1.63.6"
+  }
+}
